@@ -1,0 +1,93 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #f9fafb;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.main {
+  width: 100%;
+  max-width: 900px;
+  padding: 1rem 0;
+}
+
+.hero {
+  background: #e0e7ef;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.services {
+  margin-bottom: 2rem;
+}
+
+.servicesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.serviceCard {
+  flex: 1 0 200px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.cta {
+  background: #232e51;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #4f83ff;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.ctaButton:hover {
+  background: #1f5fd5;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #888;
+  border-top: 1px solid #eee;
+  margin-top: auto;
+}
